@@ -281,6 +281,8 @@ class Buku extends CI_Controller
             redirect('buku');
         }
     }
+
+    //hapus buku
     public function hapusBuku()
     {
         $where = ['id' => $this->uri->segment(3)];
