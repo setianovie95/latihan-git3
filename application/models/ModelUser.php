@@ -1,3 +1,4 @@
+<!--Model User-->
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 class ModelUser extends CI_Model
