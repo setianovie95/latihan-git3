@@ -133,7 +133,7 @@ class Buku extends CI_Controller
                 'numeric' => 'Yang anda masukan bukan angka'
         ]);
 
-        //konfigurasi sebelum gambar diupload
+        //konfigurasi sebelum gambar diupload.
         $config['upload_path'] = './assets/img/upload/';
         $config['allowed_types'] = 'jpg|png|jpeg';
         $config['max_size'] = '3000';
